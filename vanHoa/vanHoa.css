@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 #header{}
-#main{}
+#main{
+}
 
 .banner-image {
     height: 418px;
@@ -209,7 +210,7 @@ p.healthy-texta, p.healthy-textb, p.festival-text1, p.festival-text2  {
 .multi-hero-image >img {
        margin-top: 20px;
 }
-h4.multi-hero-title {
+.multi-hero-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -217,8 +218,9 @@ h4.multi-hero-title {
     line-height: 24px;
     text-align: center;
     padding: 15px;
+    width: 285px;
 }
-p.multi-hero-text {
+.multi-hero-text {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -227,6 +229,7 @@ p.multi-hero-text {
     line-height: 19,5px;
     padding: 20px;
     margin: auto;
+    width: 285px;
 }
 p.awards {
     font-family: 'Poppins', sans-serif;
@@ -360,7 +363,7 @@ p.awards {
         .navbar-mobile i {
             color: #000;
         } */
-        .office-image5 img {
+        .office-image5 >img {
             display: none;
         }
          .person-image-a >img{
