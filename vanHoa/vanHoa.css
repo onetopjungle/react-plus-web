@@ -218,7 +218,6 @@ p.healthy-texta, p.healthy-textb, p.festival-text1, p.festival-text2  {
     line-height: 24px;
     text-align: center;
     padding: 15px;
-    width: 285px;
 }
 .multi-hero-text {
     width: 100%;
@@ -229,7 +228,6 @@ p.healthy-texta, p.healthy-textb, p.festival-text1, p.festival-text2  {
     line-height: 19,5px;
     padding: 20px;
     margin: auto;
-    width: 285px;
 }
 p.awards {
     font-family: 'Poppins', sans-serif;
@@ -277,6 +275,62 @@ p.awards {
     background: #00DAFF;
     color: #fff;  
     margin: 10px -100px;
+}
+.left_arrow {
+    position: absolute;
+    top: 30%;
+    left: -6px;
+    font-size: 24px;
+    height: 35px;
+    width: 35px;
+    background: #297bb7;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 99;
+    text-align: center;
+    line-height: 1.6;
+    border: 2px solid #fff;
+}
+.left_arrow:hover {
+    background: #246c4e;
+    border-color: #264c4e;
+}
+.right_arrow {
+    position: absolute;
+    top: 30%;
+    right: -6px;
+    font-size: 24px;
+    height: 35px;
+    width: 35px;
+    background: #297bb7;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 99;
+    text-align: center;
+    line-height: 1.6;
+    border: 2px solid #fff;
+
+}
+.right_arrow:hover {
+    background: #246c4e;
+    border-color: #264c4e;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slick-dots li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+.slick-dots li button {
+    font-size: 0;
+    height: 15px;
+    width: 10px;
+    background: #000;
+    border-radius: 50%;
 }
 
 
