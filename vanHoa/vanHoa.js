@@ -5,8 +5,8 @@ $('.filtering').slick({
     dots: false,
     speed: 800,
     autoplaySpeed: 2000,
-    prevArrow: '<i class="fas fa-angle-left left_arrow"></i>',
-    nextArrow: '<i class="fas fa-angle-right right_arrow"></i>',
+    prevArrow: '<i class="fa fa-angle-left left_arrow"></i>',
+    nextArrow: '<i class="fa fa-angle-right right_arrow"></i>',
 });
 
 var filtered = false;
