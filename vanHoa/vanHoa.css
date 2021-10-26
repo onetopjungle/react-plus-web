@@ -54,7 +54,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 .person-image-b, .person-image-d, .person-image-g >img {
     margin-top: 100px;
@@ -342,8 +344,17 @@ p.awards {
     .banner {
         width: 100%;
     }
+    /* .person-image {
+        display: flex;
+        width: 1440px;
+    } */
     .person-image {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        max-width: 1080px;
+        margin: 0 auto;
     }
 }
 
@@ -379,7 +390,7 @@ p.awards {
      }
 }
 
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .banner {
         width: 100%;
     }
@@ -395,8 +406,16 @@ p.awards {
     .customary-festival {
         margin-top: 20px;
     }
+    .person-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        max-width: 660px;
+        margin: 0 auto;
+    }
 }
-
+/* 
 @media (max-width: 759px) {
 
     .banner {
@@ -411,14 +430,30 @@ p.awards {
    .healthy-gold {
     margin-top: 25px;
    }
-}
-@media (max-width: 739px) {
+    .person-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+} */
+@media (max-width: 812px) {
         /* header {
             background-color: #fff;
         }
         .navbar-mobile i {
             color: #000;
         } */
+        .person-image {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: nowrap;
+            max-width: 660px;
+            margin: 0 auto;
+        }
         .office-image5 >img {
             display: none;
         }
@@ -455,14 +490,32 @@ p.awards {
        }
         
     }
+@media (min-width: 414px) and (max-width: 736px) {
+     .person-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+}
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
     .banner {
         width: 100%;
     }
     .join-now >h4 {
         font-size: 17px;
         word-wrap: break-word;
+    }
+    .person-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        max-width: 350px;
+        margin: 0 auto;
     }
 }
 
