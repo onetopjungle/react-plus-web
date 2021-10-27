@@ -110,7 +110,8 @@ nav {
 /* start header */
 
 #footer {
-    margin-top: 20%;
+    width: 1080px;
+    margin: 0 auto;
     background-color: #F4F6FA;
 }
 
